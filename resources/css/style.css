@@ -1,0 +1,200 @@
+/* Universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    overflow: scroll;
+    
+}
+
+body{
+    background-color: rgba(10,100,90,.55); /* Will replace with image later */
+    color: rgba(0,45,45,1);
+}
+
+a{
+    color: rgba(256,220,0,.9);
+    text-decoration: none;
+    background-color: rgba(0,90,90,.9);
+}
+
+
+
+/* Styling the home page */
+/* Nav Bar */
+.bar{
+    width: 70%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 3;
+    padding: 1% 15%;
+    border: 0;
+    background-color: rgba(0,90,90,.95);
+}
+
+
+
+/* Header */
+header.home{
+    
+}
+.text{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 20% 0 15% 15%;
+}
+
+.me{
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-top: 5%;
+    margin-right: 19%;
+    border: solid black 1px;
+}
+
+.intro{
+    padding: 5px 0;
+    text-align: left;
+}
+
+h2.intro{
+    font-size: 42px;
+}
+
+h1.intro{
+    font-size: 60px;
+}
+
+h4.intro{
+    font-size: 24px;
+}
+
+/* Article */
+article{
+    margin: 5% 12.5%;
+}
+
+.about{
+    text-align: center;
+    margin: inherit;
+}
+
+h2.about{
+    font-weight: bold;
+}
+
+.about p{
+    
+}
+/* Footer */
+footer{
+    text-align: right;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10%;
+    background-color: rgba(0,90,90,.95);
+    color: rgba(256,220,0,.9);
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    border-bottom: solid black;
+    padding-top: 150px;
+    
+}
+
+h2.contact{
+    margin-top: 0;
+}
+
+p.contact{
+    padding-top: 0;    
+}
+
+footer p{
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+
+
+/* Styling project pages */
+header.projects{
+    width: 50%;
+    height: auto;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+article.projects{
+    width: 75%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+button.projects{
+    width: 15%;
+    height: 5%;
+    border-radius: 10%;
+    font-size: 24px;
+    background-color: rgba(0,90,90,.9);
+    color: rgba(256,220,0,.9);
+}
+
+
+
+/* Styling resume page */
+header.resume{
+    width: 50%;
+    height: auto;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+article.resume{
+    width: 75%;
+    margin: 5% auto;
+}
+
+h2.section{
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.title, .duration{
+    padding-bottom: 5px;
+}
+
+article.resume h4{
+    font-size: 22px;
+}
+
+article.resume h5{
+    font-size: 18px;
+}
+
+.description{
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/* Mobile Styling */
