@@ -14,32 +14,35 @@
             <!-- Make nav bar fixed at top of page, stays there when scrolling -->
         </nav>
         
-        <header>
+        <header class="project">
             <h1>Analyzing COVID-19</h1>
         </header>
         
-        <article>
+        <article class="project">
             <!-- Insert page-specific work here -->
-            <p class="project">During the global spread of COVID-19, one of the most popular ways governments and public health organizations attempt to understand the virus is the creation of various models based on the data we have. These models vary in their predictions and understanding of the virus depending on the source of data, which varies country to country.<br>
-            Partially as a way to further my own understanding and partially as a way to pass time, I attempted to scale some of these models to my own state of Kentucky. This has, to a degree, been a success, as I have a better understanding now of COVID-19's presence near me and have succeeded in passing some time in the creation of this project.<br>
-            That said, this project comes with a few assumptions that may affect the conclusions drawn. I have tried to track all of them so that, if unjustified, they can be adjusted for a better model of the situation.<br></p>
-            <ul>
+            <div class="column">
+            <p class="project">During the global spread of COVID-19, one of the most popular ways governments and public health organizations attempt to understand the virus is the creation of various models based on the data we have. These models vary in their predictions and understanding of the virus depending on the source of data, which varies country to country.<br></p>
+            <p class="project">Partially as a way to further my own understanding and partially as a way to pass time, I attempted to scale some of these models to my own state of Kentucky. This has, to a degree, been a success, as I have a better understanding now of COVID-19's presence near me and have succeeded in passing some time in the creation of this project.<br></p>
+            <p class="project">That said, this project comes with a few assumptions that may affect the conclusions drawn. I have tried to track all of them so that, if unjustified, they can be adjusted for a better model of the situation.<br></p>
+            <ol class="project">
                 <li>20% of cases are being counted. This is based on WHO estimates that 80% of cases are mild or asymptomatic, so they would not be counted by health departments.</li>
                 <li>Assumed 50% of deaths have been counted. This is much more arbitrarily decided than above, but on the assumption that deaths in hospitals are counted, not deaths outside the hospital. However, mortality rates are low for asymptomatic and mild cases, so the data is assumed more accurate here than for infections.</li>
                 <li>Recovered cases are the total infected minus the total infected cases two weeks ago minus the total infected cases today multiplied by the mortality rate. </li>
                 <li>Mortality rate is used based on the deaths divided by total cases. When used in calculating other values, the most recent estimate is used, as most data is based on cumulative numbers.</li>
-            </ul>
+            </ol>
             <p class="project">To the right are visualizations I was able to come up as of April 10, 2020. They will be periodically updated as new data comes in.</p>
             <p class="sources">Sources for data: <br>
 <a href="https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/" target="_blank">Infection & Death Counts</a><br>
 <a href="https://www.who.int/news-room/q-a-detail/q-a-similarities-and-differences-covid-19-and-influenza" target="_blank">WHO</a>
 </p>
-            
+            </div>
             
             <!-- Images -->
+            <div class="column">
             <img src="../resources/media/img/covid_1.png" class="graphic">
             <img src="../resources/media/img/covid_2.png" class="graphic">
             <img src="../resources/media/img/covid_3.png" class="graphic">
+            </div>
         </article>
         
         <footer>

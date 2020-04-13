@@ -9,14 +9,14 @@
 }
 
 body{
-    background-color: rgba(10,100,90,.55); /* Will replace with image later */
-    color: rgba(0,45,45,1);
+    background-color: rgba(0,130,215,.55); /* Will replace with image later */
+    color: rgba(0,10,100,.9);
 }
 
 a{
     color: rgba(256,220,0,.9);
     text-decoration: none;
-    background-color: rgba(0,90,90,.9);
+    background-color: rgba(0,10,90,0);
 }
 
 
@@ -32,7 +32,7 @@ a{
     z-index: 3;
     padding: 1% 15%;
     border: 0;
-    background-color: rgba(0,90,90,.95);
+    background-color: rgba(0,10,90,.95);
 }
 
 
@@ -98,7 +98,7 @@ footer{
     padding-right: 25px;
     padding-left: 25px;
     padding-bottom: 10%;
-    background-color: rgba(0,90,90,.95);
+    background-color: rgba(0,10,90,.95);
     color: rgba(256,220,0,.9);
 }
 
@@ -125,7 +125,7 @@ footer p{
 
 
 
-/* Styling project pages */
+/* Styling projects page */
 header.projects{
     width: 50%;
     height: auto;
@@ -147,7 +147,7 @@ button.projects{
     height: 5%;
     border-radius: 10%;
     font-size: 24px;
-    background-color: rgba(0,90,90,.9);
+    background-color: rgba(0,10,90,.9);
     color: rgba(256,220,0,.9);
 }
 
@@ -192,6 +192,60 @@ article.resume h5{
 }
 
 
+
+/* Styling Project Pages */
+header.project{
+    width: 50%;
+    height: auto;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+article.project{
+    display: inline-flex;
+    width: 75%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+div.column{
+    width: 45%;
+    flex-wrap: wrap;
+    flex-flow: column;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
+p.project, ol.project, p.sources{
+    padding: 2%;
+    width: 85%;
+    float: left;
+    position: relative;
+}
+
+ol.project{
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+ol.project li{
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+}
+
+p.sources a{
+    background-color: rgba(0,0,0,0);
+    color: rgba(0,10,100,.9);
+}
+
+img.graphic{
+    width: 90%;
+    height: auto;
+}
 
 
 
